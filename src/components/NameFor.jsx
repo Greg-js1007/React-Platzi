@@ -5,7 +5,7 @@ export const NameFor = () => {
     const [name, setName] = useState("");
 
     return (
-        <div>
+        <div className="flex flex-col justify-center">
             <h2 className="text-white font-bold text-5xl">Formulario de Nombre</h2>
             <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
 
